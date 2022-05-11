@@ -36,6 +36,7 @@ interface IFile extends Document {
   filename: string;
   secure_url: string;
   sizeInByte: string;
+  format: string;
   sender?: string;
   receiver?: string;
 }
